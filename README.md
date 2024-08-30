@@ -1,5 +1,5 @@
 fix-selinux-alerts.pl is a script which attempts to automatically remdiate selinux alerts by adding custom policies.
-It's not neccesarily optimal, elegant or correct, but it's meant to be a quick and easy way to create exceptions for any sort of cool ways you might want to color outside the lines.
+It's not neccesarily optimal, elegant or correct, but it's meant to be a quick and easy way to create exceptions for any sort of cool things you might want to implement, or just to quickly overrule selinux as needed. 
 
 The pattern matching heuristics are not neccesarily robust, and could break with new versions of any of the software on which it depends.
 
